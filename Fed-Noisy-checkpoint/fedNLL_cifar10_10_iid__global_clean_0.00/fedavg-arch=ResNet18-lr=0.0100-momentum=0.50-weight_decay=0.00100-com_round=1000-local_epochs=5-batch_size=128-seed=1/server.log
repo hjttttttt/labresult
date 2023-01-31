@@ -1,0 +1,388 @@
+2023-01-30 13:28:00,261 - ServerHandler - INFO - Round [0/1000] server global update done.
+2023-01-30 13:28:04,198 - ServerHandler - INFO - Round [0/1000] test performance on server: 	 Loss: 2.30518 	 Acc: 26.610%
+2023-01-30 13:37:48,496 - ServerHandler - INFO - Round [1/1000] server global update done.
+2023-01-30 13:37:54,867 - ServerHandler - INFO - Round [1/1000] test performance on server: 	 Loss: 1.09552 	 Acc: 60.980%
+2023-01-30 13:49:07,632 - ServerHandler - INFO - Round [2/1000] server global update done.
+2023-01-30 13:49:14,363 - ServerHandler - INFO - Round [2/1000] test performance on server: 	 Loss: 0.84446 	 Acc: 70.780%
+2023-01-30 14:00:27,444 - ServerHandler - INFO - Round [3/1000] server global update done.
+2023-01-30 14:00:34,930 - ServerHandler - INFO - Round [3/1000] test performance on server: 	 Loss: 0.70439 	 Acc: 75.910%
+2023-01-30 14:11:46,529 - ServerHandler - INFO - Round [4/1000] server global update done.
+2023-01-30 14:11:52,815 - ServerHandler - INFO - Round [4/1000] test performance on server: 	 Loss: 0.61818 	 Acc: 79.310%
+2023-01-30 14:21:23,869 - ServerHandler - INFO - Round [5/1000] server global update done.
+2023-01-30 14:21:28,991 - ServerHandler - INFO - Round [5/1000] test performance on server: 	 Loss: 0.56439 	 Acc: 81.470%
+2023-01-30 14:28:17,243 - ServerHandler - INFO - Round [6/1000] server global update done.
+2023-01-30 14:28:21,018 - ServerHandler - INFO - Round [6/1000] test performance on server: 	 Loss: 0.53326 	 Acc: 83.170%
+2023-01-30 14:34:21,275 - ServerHandler - INFO - Round [7/1000] server global update done.
+2023-01-30 14:34:25,019 - ServerHandler - INFO - Round [7/1000] test performance on server: 	 Loss: 0.49477 	 Acc: 84.350%
+2023-01-30 14:40:30,449 - ServerHandler - INFO - Round [8/1000] server global update done.
+2023-01-30 14:40:35,096 - ServerHandler - INFO - Round [8/1000] test performance on server: 	 Loss: 0.48537 	 Acc: 84.640%
+2023-01-30 14:46:37,337 - ServerHandler - INFO - Round [9/1000] server global update done.
+2023-01-30 14:46:42,397 - ServerHandler - INFO - Round [9/1000] test performance on server: 	 Loss: 0.46018 	 Acc: 85.760%
+2023-01-30 14:52:47,523 - ServerHandler - INFO - Round [10/1000] server global update done.
+2023-01-30 14:52:52,221 - ServerHandler - INFO - Round [10/1000] test performance on server: 	 Loss: 0.43890 	 Acc: 86.530%
+2023-01-30 14:59:01,617 - ServerHandler - INFO - Round [11/1000] server global update done.
+2023-01-30 14:59:05,512 - ServerHandler - INFO - Round [11/1000] test performance on server: 	 Loss: 0.42191 	 Acc: 87.240%
+2023-01-30 15:05:27,687 - ServerHandler - INFO - Round [12/1000] server global update done.
+2023-01-30 15:05:31,444 - ServerHandler - INFO - Round [12/1000] test performance on server: 	 Loss: 0.41278 	 Acc: 87.560%
+2023-01-30 15:11:35,874 - ServerHandler - INFO - Round [13/1000] server global update done.
+2023-01-30 15:11:39,935 - ServerHandler - INFO - Round [13/1000] test performance on server: 	 Loss: 0.40555 	 Acc: 87.980%
+2023-01-30 15:17:49,791 - ServerHandler - INFO - Round [14/1000] server global update done.
+2023-01-30 15:17:54,138 - ServerHandler - INFO - Round [14/1000] test performance on server: 	 Loss: 0.39662 	 Acc: 88.170%
+2023-01-30 15:23:57,654 - ServerHandler - INFO - Round [15/1000] server global update done.
+2023-01-30 15:24:02,181 - ServerHandler - INFO - Round [15/1000] test performance on server: 	 Loss: 0.38012 	 Acc: 88.810%
+2023-01-30 15:30:14,118 - ServerHandler - INFO - Round [16/1000] server global update done.
+2023-01-30 15:30:18,639 - ServerHandler - INFO - Round [16/1000] test performance on server: 	 Loss: 0.37844 	 Acc: 88.780%
+2023-01-30 15:36:22,500 - ServerHandler - INFO - Round [17/1000] server global update done.
+2023-01-30 15:36:27,035 - ServerHandler - INFO - Round [17/1000] test performance on server: 	 Loss: 0.36808 	 Acc: 89.240%
+2023-01-30 15:42:34,948 - ServerHandler - INFO - Round [18/1000] server global update done.
+2023-01-30 15:42:39,595 - ServerHandler - INFO - Round [18/1000] test performance on server: 	 Loss: 0.36359 	 Acc: 89.290%
+2023-01-30 15:48:47,672 - ServerHandler - INFO - Round [19/1000] server global update done.
+2023-01-30 15:48:52,022 - ServerHandler - INFO - Round [19/1000] test performance on server: 	 Loss: 0.35276 	 Acc: 89.620%
+2023-01-30 15:54:57,137 - ServerHandler - INFO - Round [20/1000] server global update done.
+2023-01-30 15:55:01,653 - ServerHandler - INFO - Round [20/1000] test performance on server: 	 Loss: 0.36346 	 Acc: 89.540%
+2023-01-30 16:01:21,205 - ServerHandler - INFO - Round [21/1000] server global update done.
+2023-01-30 16:01:25,784 - ServerHandler - INFO - Round [21/1000] test performance on server: 	 Loss: 0.35789 	 Acc: 89.890%
+2023-01-30 16:07:33,541 - ServerHandler - INFO - Round [22/1000] server global update done.
+2023-01-30 16:07:38,333 - ServerHandler - INFO - Round [22/1000] test performance on server: 	 Loss: 0.35902 	 Acc: 89.910%
+2023-01-30 16:13:40,013 - ServerHandler - INFO - Round [23/1000] server global update done.
+2023-01-30 16:13:44,469 - ServerHandler - INFO - Round [23/1000] test performance on server: 	 Loss: 0.35026 	 Acc: 89.830%
+2023-01-30 16:19:49,294 - ServerHandler - INFO - Round [24/1000] server global update done.
+2023-01-30 16:19:53,165 - ServerHandler - INFO - Round [24/1000] test performance on server: 	 Loss: 0.36604 	 Acc: 89.890%
+2023-01-30 16:26:12,239 - ServerHandler - INFO - Round [25/1000] server global update done.
+2023-01-30 16:26:16,033 - ServerHandler - INFO - Round [25/1000] test performance on server: 	 Loss: 0.34570 	 Acc: 90.210%
+2023-01-30 16:32:19,789 - ServerHandler - INFO - Round [26/1000] server global update done.
+2023-01-30 16:32:24,436 - ServerHandler - INFO - Round [26/1000] test performance on server: 	 Loss: 0.35660 	 Acc: 90.340%
+2023-01-30 16:38:25,241 - ServerHandler - INFO - Round [27/1000] server global update done.
+2023-01-30 16:38:28,863 - ServerHandler - INFO - Round [27/1000] test performance on server: 	 Loss: 0.34729 	 Acc: 90.480%
+2023-01-30 16:44:35,378 - ServerHandler - INFO - Round [28/1000] server global update done.
+2023-01-30 16:44:39,873 - ServerHandler - INFO - Round [28/1000] test performance on server: 	 Loss: 0.34315 	 Acc: 90.680%
+2023-01-30 16:50:44,092 - ServerHandler - INFO - Round [29/1000] server global update done.
+2023-01-30 16:50:48,801 - ServerHandler - INFO - Round [29/1000] test performance on server: 	 Loss: 0.33084 	 Acc: 90.960%
+2023-01-30 16:56:54,825 - ServerHandler - INFO - Round [30/1000] server global update done.
+2023-01-30 16:56:59,114 - ServerHandler - INFO - Round [30/1000] test performance on server: 	 Loss: 0.33934 	 Acc: 90.840%
+2023-01-30 17:02:55,023 - ServerHandler - INFO - Round [31/1000] server global update done.
+2023-01-30 17:02:59,220 - ServerHandler - INFO - Round [31/1000] test performance on server: 	 Loss: 0.33598 	 Acc: 90.840%
+2023-01-30 17:09:06,388 - ServerHandler - INFO - Round [32/1000] server global update done.
+2023-01-30 17:09:10,566 - ServerHandler - INFO - Round [32/1000] test performance on server: 	 Loss: 0.33545 	 Acc: 91.010%
+2023-01-30 17:15:12,434 - ServerHandler - INFO - Round [33/1000] server global update done.
+2023-01-30 17:15:16,605 - ServerHandler - INFO - Round [33/1000] test performance on server: 	 Loss: 0.33220 	 Acc: 90.990%
+2023-01-30 17:21:15,192 - ServerHandler - INFO - Round [34/1000] server global update done.
+2023-01-30 17:21:18,877 - ServerHandler - INFO - Round [34/1000] test performance on server: 	 Loss: 0.32892 	 Acc: 91.220%
+2023-01-30 17:27:22,157 - ServerHandler - INFO - Round [35/1000] server global update done.
+2023-01-30 17:27:26,327 - ServerHandler - INFO - Round [35/1000] test performance on server: 	 Loss: 0.33033 	 Acc: 91.380%
+2023-01-30 17:33:29,095 - ServerHandler - INFO - Round [36/1000] server global update done.
+2023-01-30 17:33:33,888 - ServerHandler - INFO - Round [36/1000] test performance on server: 	 Loss: 0.32677 	 Acc: 91.370%
+2023-01-30 17:39:32,142 - ServerHandler - INFO - Round [37/1000] server global update done.
+2023-01-30 17:39:36,255 - ServerHandler - INFO - Round [37/1000] test performance on server: 	 Loss: 0.31983 	 Acc: 91.450%
+2023-01-30 17:45:35,644 - ServerHandler - INFO - Round [38/1000] server global update done.
+2023-01-30 17:45:39,985 - ServerHandler - INFO - Round [38/1000] test performance on server: 	 Loss: 0.32383 	 Acc: 91.450%
+2023-01-30 17:51:43,430 - ServerHandler - INFO - Round [39/1000] server global update done.
+2023-01-30 17:51:47,936 - ServerHandler - INFO - Round [39/1000] test performance on server: 	 Loss: 0.33333 	 Acc: 91.350%
+2023-01-30 17:57:52,724 - ServerHandler - INFO - Round [40/1000] server global update done.
+2023-01-30 17:57:56,978 - ServerHandler - INFO - Round [40/1000] test performance on server: 	 Loss: 0.32990 	 Acc: 91.370%
+2023-01-30 18:03:58,015 - ServerHandler - INFO - Round [41/1000] server global update done.
+2023-01-30 18:04:02,139 - ServerHandler - INFO - Round [41/1000] test performance on server: 	 Loss: 0.33631 	 Acc: 91.480%
+2023-01-30 18:10:06,885 - ServerHandler - INFO - Round [42/1000] server global update done.
+2023-01-30 18:10:10,656 - ServerHandler - INFO - Round [42/1000] test performance on server: 	 Loss: 0.32582 	 Acc: 91.490%
+2023-01-30 18:16:22,653 - ServerHandler - INFO - Round [43/1000] server global update done.
+2023-01-30 18:16:26,160 - ServerHandler - INFO - Round [43/1000] test performance on server: 	 Loss: 0.32022 	 Acc: 91.520%
+2023-01-30 18:22:43,380 - ServerHandler - INFO - Round [44/1000] server global update done.
+2023-01-30 18:22:47,428 - ServerHandler - INFO - Round [44/1000] test performance on server: 	 Loss: 0.32440 	 Acc: 91.610%
+2023-01-30 18:29:07,978 - ServerHandler - INFO - Round [45/1000] server global update done.
+2023-01-30 18:29:11,353 - ServerHandler - INFO - Round [45/1000] test performance on server: 	 Loss: 0.32074 	 Acc: 91.620%
+2023-01-30 18:35:07,777 - ServerHandler - INFO - Round [46/1000] server global update done.
+2023-01-30 18:35:11,729 - ServerHandler - INFO - Round [46/1000] test performance on server: 	 Loss: 0.32471 	 Acc: 91.750%
+2023-01-30 18:41:07,713 - ServerHandler - INFO - Round [47/1000] server global update done.
+2023-01-30 18:41:11,571 - ServerHandler - INFO - Round [47/1000] test performance on server: 	 Loss: 0.31689 	 Acc: 91.810%
+2023-01-30 18:47:05,563 - ServerHandler - INFO - Round [48/1000] server global update done.
+2023-01-30 18:47:09,442 - ServerHandler - INFO - Round [48/1000] test performance on server: 	 Loss: 0.32193 	 Acc: 91.890%
+2023-01-30 18:53:05,671 - ServerHandler - INFO - Round [49/1000] server global update done.
+2023-01-30 18:53:09,642 - ServerHandler - INFO - Round [49/1000] test performance on server: 	 Loss: 0.32052 	 Acc: 91.810%
+2023-01-30 18:59:01,530 - ServerHandler - INFO - Round [50/1000] server global update done.
+2023-01-30 18:59:05,317 - ServerHandler - INFO - Round [50/1000] test performance on server: 	 Loss: 0.31702 	 Acc: 91.890%
+2023-01-30 19:05:06,706 - ServerHandler - INFO - Round [51/1000] server global update done.
+2023-01-30 19:05:10,519 - ServerHandler - INFO - Round [51/1000] test performance on server: 	 Loss: 0.31884 	 Acc: 91.960%
+2023-01-30 19:11:09,840 - ServerHandler - INFO - Round [52/1000] server global update done.
+2023-01-30 19:11:13,577 - ServerHandler - INFO - Round [52/1000] test performance on server: 	 Loss: 0.31959 	 Acc: 92.030%
+2023-01-30 19:17:19,748 - ServerHandler - INFO - Round [53/1000] server global update done.
+2023-01-30 19:17:23,332 - ServerHandler - INFO - Round [53/1000] test performance on server: 	 Loss: 0.32343 	 Acc: 91.910%
+2023-01-30 19:23:24,830 - ServerHandler - INFO - Round [54/1000] server global update done.
+2023-01-30 19:23:28,738 - ServerHandler - INFO - Round [54/1000] test performance on server: 	 Loss: 0.32036 	 Acc: 91.910%
+2023-01-30 19:29:27,618 - ServerHandler - INFO - Round [55/1000] server global update done.
+2023-01-30 19:29:31,759 - ServerHandler - INFO - Round [55/1000] test performance on server: 	 Loss: 0.32807 	 Acc: 91.830%
+2023-01-30 19:35:27,654 - ServerHandler - INFO - Round [56/1000] server global update done.
+2023-01-30 19:35:31,940 - ServerHandler - INFO - Round [56/1000] test performance on server: 	 Loss: 0.31710 	 Acc: 92.070%
+2023-01-30 19:41:26,264 - ServerHandler - INFO - Round [57/1000] server global update done.
+2023-01-30 19:41:30,062 - ServerHandler - INFO - Round [57/1000] test performance on server: 	 Loss: 0.31398 	 Acc: 92.150%
+2023-01-30 19:47:25,350 - ServerHandler - INFO - Round [58/1000] server global update done.
+2023-01-30 19:47:29,524 - ServerHandler - INFO - Round [58/1000] test performance on server: 	 Loss: 0.31738 	 Acc: 92.060%
+2023-01-30 19:53:30,232 - ServerHandler - INFO - Round [59/1000] server global update done.
+2023-01-30 19:53:34,172 - ServerHandler - INFO - Round [59/1000] test performance on server: 	 Loss: 0.31877 	 Acc: 92.090%
+2023-01-30 19:59:33,124 - ServerHandler - INFO - Round [60/1000] server global update done.
+2023-01-30 19:59:36,620 - ServerHandler - INFO - Round [60/1000] test performance on server: 	 Loss: 0.31174 	 Acc: 92.290%
+2023-01-30 20:05:44,140 - ServerHandler - INFO - Round [61/1000] server global update done.
+2023-01-30 20:05:48,056 - ServerHandler - INFO - Round [61/1000] test performance on server: 	 Loss: 0.31452 	 Acc: 92.190%
+2023-01-30 20:11:42,408 - ServerHandler - INFO - Round [62/1000] server global update done.
+2023-01-30 20:11:46,200 - ServerHandler - INFO - Round [62/1000] test performance on server: 	 Loss: 0.31679 	 Acc: 92.140%
+2023-01-30 20:17:40,732 - ServerHandler - INFO - Round [63/1000] server global update done.
+2023-01-30 20:17:44,853 - ServerHandler - INFO - Round [63/1000] test performance on server: 	 Loss: 0.31079 	 Acc: 92.080%
+2023-01-30 20:23:42,839 - ServerHandler - INFO - Round [64/1000] server global update done.
+2023-01-30 20:23:46,634 - ServerHandler - INFO - Round [64/1000] test performance on server: 	 Loss: 0.30394 	 Acc: 92.200%
+2023-01-30 20:29:43,042 - ServerHandler - INFO - Round [65/1000] server global update done.
+2023-01-30 20:29:46,846 - ServerHandler - INFO - Round [65/1000] test performance on server: 	 Loss: 0.30263 	 Acc: 92.230%
+2023-01-30 20:35:44,070 - ServerHandler - INFO - Round [66/1000] server global update done.
+2023-01-30 20:35:47,966 - ServerHandler - INFO - Round [66/1000] test performance on server: 	 Loss: 0.31325 	 Acc: 92.250%
+2023-01-30 20:41:42,537 - ServerHandler - INFO - Round [67/1000] server global update done.
+2023-01-30 20:41:45,145 - ServerHandler - INFO - Round [67/1000] test performance on server: 	 Loss: 0.31078 	 Acc: 92.460%
+2023-01-30 20:48:03,123 - ServerHandler - INFO - Round [68/1000] server global update done.
+2023-01-30 20:48:05,741 - ServerHandler - INFO - Round [68/1000] test performance on server: 	 Loss: 0.30205 	 Acc: 92.120%
+2023-01-30 20:54:01,934 - ServerHandler - INFO - Round [69/1000] server global update done.
+2023-01-30 20:54:05,947 - ServerHandler - INFO - Round [69/1000] test performance on server: 	 Loss: 0.30259 	 Acc: 92.350%
+2023-01-30 21:00:00,309 - ServerHandler - INFO - Round [70/1000] server global update done.
+2023-01-30 21:00:04,113 - ServerHandler - INFO - Round [70/1000] test performance on server: 	 Loss: 0.30502 	 Acc: 92.440%
+2023-01-30 21:06:00,325 - ServerHandler - INFO - Round [71/1000] server global update done.
+2023-01-30 21:06:04,226 - ServerHandler - INFO - Round [71/1000] test performance on server: 	 Loss: 0.30331 	 Acc: 92.480%
+2023-01-30 21:11:59,009 - ServerHandler - INFO - Round [72/1000] server global update done.
+2023-01-30 21:12:02,948 - ServerHandler - INFO - Round [72/1000] test performance on server: 	 Loss: 0.29778 	 Acc: 92.450%
+2023-01-30 21:17:56,962 - ServerHandler - INFO - Round [73/1000] server global update done.
+2023-01-30 21:18:01,184 - ServerHandler - INFO - Round [73/1000] test performance on server: 	 Loss: 0.29907 	 Acc: 92.420%
+2023-01-30 21:23:57,653 - ServerHandler - INFO - Round [74/1000] server global update done.
+2023-01-30 21:24:01,751 - ServerHandler - INFO - Round [74/1000] test performance on server: 	 Loss: 0.31140 	 Acc: 92.240%
+2023-01-30 21:30:00,346 - ServerHandler - INFO - Round [75/1000] server global update done.
+2023-01-30 21:30:03,980 - ServerHandler - INFO - Round [75/1000] test performance on server: 	 Loss: 0.30494 	 Acc: 92.510%
+2023-01-30 21:36:00,585 - ServerHandler - INFO - Round [76/1000] server global update done.
+2023-01-30 21:36:04,453 - ServerHandler - INFO - Round [76/1000] test performance on server: 	 Loss: 0.31005 	 Acc: 92.090%
+2023-01-30 21:41:57,125 - ServerHandler - INFO - Round [77/1000] server global update done.
+2023-01-30 21:42:00,975 - ServerHandler - INFO - Round [77/1000] test performance on server: 	 Loss: 0.30084 	 Acc: 92.420%
+2023-01-30 21:47:57,310 - ServerHandler - INFO - Round [78/1000] server global update done.
+2023-01-30 21:48:01,332 - ServerHandler - INFO - Round [78/1000] test performance on server: 	 Loss: 0.28910 	 Acc: 92.480%
+2023-01-30 21:53:55,524 - ServerHandler - INFO - Round [79/1000] server global update done.
+2023-01-30 21:53:59,447 - ServerHandler - INFO - Round [79/1000] test performance on server: 	 Loss: 0.29267 	 Acc: 92.570%
+2023-01-30 21:59:55,683 - ServerHandler - INFO - Round [80/1000] server global update done.
+2023-01-30 21:59:59,478 - ServerHandler - INFO - Round [80/1000] test performance on server: 	 Loss: 0.29517 	 Acc: 92.390%
+2023-01-30 22:06:02,872 - ServerHandler - INFO - Round [81/1000] server global update done.
+2023-01-30 22:06:06,428 - ServerHandler - INFO - Round [81/1000] test performance on server: 	 Loss: 0.29276 	 Acc: 92.520%
+2023-01-30 22:12:04,632 - ServerHandler - INFO - Round [82/1000] server global update done.
+2023-01-30 22:12:08,444 - ServerHandler - INFO - Round [82/1000] test performance on server: 	 Loss: 0.28508 	 Acc: 92.670%
+2023-01-30 22:18:05,172 - ServerHandler - INFO - Round [83/1000] server global update done.
+2023-01-30 22:18:09,373 - ServerHandler - INFO - Round [83/1000] test performance on server: 	 Loss: 0.29381 	 Acc: 92.590%
+2023-01-30 22:24:05,538 - ServerHandler - INFO - Round [84/1000] server global update done.
+2023-01-30 22:24:09,527 - ServerHandler - INFO - Round [84/1000] test performance on server: 	 Loss: 0.28467 	 Acc: 92.710%
+2023-01-30 22:30:05,494 - ServerHandler - INFO - Round [85/1000] server global update done.
+2023-01-30 22:30:09,459 - ServerHandler - INFO - Round [85/1000] test performance on server: 	 Loss: 0.29044 	 Acc: 92.570%
+2023-01-30 22:36:16,718 - ServerHandler - INFO - Round [86/1000] server global update done.
+2023-01-30 22:36:21,583 - ServerHandler - INFO - Round [86/1000] test performance on server: 	 Loss: 0.29087 	 Acc: 92.230%
+2023-01-30 22:42:39,325 - ServerHandler - INFO - Round [87/1000] server global update done.
+2023-01-30 22:42:43,280 - ServerHandler - INFO - Round [87/1000] test performance on server: 	 Loss: 0.28465 	 Acc: 92.530%
+2023-01-30 22:48:52,488 - ServerHandler - INFO - Round [88/1000] server global update done.
+2023-01-30 22:48:56,537 - ServerHandler - INFO - Round [88/1000] test performance on server: 	 Loss: 0.29136 	 Acc: 92.530%
+2023-01-30 22:55:02,042 - ServerHandler - INFO - Round [89/1000] server global update done.
+2023-01-30 22:55:07,105 - ServerHandler - INFO - Round [89/1000] test performance on server: 	 Loss: 0.28747 	 Acc: 92.570%
+2023-01-30 23:01:13,174 - ServerHandler - INFO - Round [90/1000] server global update done.
+2023-01-30 23:01:17,288 - ServerHandler - INFO - Round [90/1000] test performance on server: 	 Loss: 0.27898 	 Acc: 92.620%
+2023-01-30 23:07:25,900 - ServerHandler - INFO - Round [91/1000] server global update done.
+2023-01-30 23:07:30,331 - ServerHandler - INFO - Round [91/1000] test performance on server: 	 Loss: 0.28181 	 Acc: 92.580%
+2023-01-30 23:13:32,856 - ServerHandler - INFO - Round [92/1000] server global update done.
+2023-01-30 23:13:37,195 - ServerHandler - INFO - Round [92/1000] test performance on server: 	 Loss: 0.28047 	 Acc: 92.640%
+2023-01-30 23:19:42,268 - ServerHandler - INFO - Round [93/1000] server global update done.
+2023-01-30 23:19:46,478 - ServerHandler - INFO - Round [93/1000] test performance on server: 	 Loss: 0.28053 	 Acc: 92.730%
+2023-01-30 23:25:57,389 - ServerHandler - INFO - Round [94/1000] server global update done.
+2023-01-30 23:26:01,748 - ServerHandler - INFO - Round [94/1000] test performance on server: 	 Loss: 0.27485 	 Acc: 92.750%
+2023-01-30 23:32:09,124 - ServerHandler - INFO - Round [95/1000] server global update done.
+2023-01-30 23:32:13,715 - ServerHandler - INFO - Round [95/1000] test performance on server: 	 Loss: 0.27165 	 Acc: 92.940%
+2023-01-30 23:38:28,669 - ServerHandler - INFO - Round [96/1000] server global update done.
+2023-01-30 23:38:33,418 - ServerHandler - INFO - Round [96/1000] test performance on server: 	 Loss: 0.27217 	 Acc: 92.750%
+2023-01-30 23:44:44,421 - ServerHandler - INFO - Round [97/1000] server global update done.
+2023-01-30 23:44:49,194 - ServerHandler - INFO - Round [97/1000] test performance on server: 	 Loss: 0.27268 	 Acc: 92.700%
+2023-01-30 23:51:02,205 - ServerHandler - INFO - Round [98/1000] server global update done.
+2023-01-30 23:51:06,978 - ServerHandler - INFO - Round [98/1000] test performance on server: 	 Loss: 0.26195 	 Acc: 92.980%
+2023-01-30 23:57:11,550 - ServerHandler - INFO - Round [99/1000] server global update done.
+2023-01-30 23:57:15,753 - ServerHandler - INFO - Round [99/1000] test performance on server: 	 Loss: 0.26526 	 Acc: 92.780%
+2023-01-31 00:03:25,404 - ServerHandler - INFO - Round [100/1000] server global update done.
+2023-01-31 00:03:29,695 - ServerHandler - INFO - Round [100/1000] test performance on server: 	 Loss: 0.27110 	 Acc: 92.760%
+2023-01-31 00:09:34,435 - ServerHandler - INFO - Round [101/1000] server global update done.
+2023-01-31 00:09:38,999 - ServerHandler - INFO - Round [101/1000] test performance on server: 	 Loss: 0.26368 	 Acc: 92.560%
+2023-01-31 00:15:46,252 - ServerHandler - INFO - Round [102/1000] server global update done.
+2023-01-31 00:15:50,494 - ServerHandler - INFO - Round [102/1000] test performance on server: 	 Loss: 0.27059 	 Acc: 92.780%
+2023-01-31 00:21:53,762 - ServerHandler - INFO - Round [103/1000] server global update done.
+2023-01-31 00:21:57,736 - ServerHandler - INFO - Round [103/1000] test performance on server: 	 Loss: 0.26462 	 Acc: 92.860%
+2023-01-31 00:28:06,666 - ServerHandler - INFO - Round [104/1000] server global update done.
+2023-01-31 00:28:11,075 - ServerHandler - INFO - Round [104/1000] test performance on server: 	 Loss: 0.27058 	 Acc: 92.770%
+2023-01-31 00:34:23,584 - ServerHandler - INFO - Round [105/1000] server global update done.
+2023-01-31 00:34:28,298 - ServerHandler - INFO - Round [105/1000] test performance on server: 	 Loss: 0.25796 	 Acc: 93.010%
+2023-01-31 00:40:43,588 - ServerHandler - INFO - Round [106/1000] server global update done.
+2023-01-31 00:40:48,146 - ServerHandler - INFO - Round [106/1000] test performance on server: 	 Loss: 0.25947 	 Acc: 92.970%
+2023-01-31 00:46:58,317 - ServerHandler - INFO - Round [107/1000] server global update done.
+2023-01-31 00:47:02,781 - ServerHandler - INFO - Round [107/1000] test performance on server: 	 Loss: 0.26049 	 Acc: 92.970%
+2023-01-31 00:53:10,621 - ServerHandler - INFO - Round [108/1000] server global update done.
+2023-01-31 00:53:15,523 - ServerHandler - INFO - Round [108/1000] test performance on server: 	 Loss: 0.26112 	 Acc: 93.110%
+2023-01-31 00:59:20,825 - ServerHandler - INFO - Round [109/1000] server global update done.
+2023-01-31 00:59:25,526 - ServerHandler - INFO - Round [109/1000] test performance on server: 	 Loss: 0.26568 	 Acc: 92.830%
+2023-01-31 01:05:32,603 - ServerHandler - INFO - Round [110/1000] server global update done.
+2023-01-31 01:05:37,318 - ServerHandler - INFO - Round [110/1000] test performance on server: 	 Loss: 0.25953 	 Acc: 92.910%
+2023-01-31 01:11:44,416 - ServerHandler - INFO - Round [111/1000] server global update done.
+2023-01-31 01:11:48,882 - ServerHandler - INFO - Round [111/1000] test performance on server: 	 Loss: 0.27098 	 Acc: 92.550%
+2023-01-31 01:17:49,024 - ServerHandler - INFO - Round [112/1000] server global update done.
+2023-01-31 01:17:53,062 - ServerHandler - INFO - Round [112/1000] test performance on server: 	 Loss: 0.27193 	 Acc: 92.800%
+2023-01-31 01:23:59,493 - ServerHandler - INFO - Round [113/1000] server global update done.
+2023-01-31 01:24:04,000 - ServerHandler - INFO - Round [113/1000] test performance on server: 	 Loss: 0.25478 	 Acc: 92.960%
+2023-01-31 01:30:06,148 - ServerHandler - INFO - Round [114/1000] server global update done.
+2023-01-31 01:30:10,412 - ServerHandler - INFO - Round [114/1000] test performance on server: 	 Loss: 0.25286 	 Acc: 93.050%
+2023-01-31 01:36:16,413 - ServerHandler - INFO - Round [115/1000] server global update done.
+2023-01-31 01:36:21,635 - ServerHandler - INFO - Round [115/1000] test performance on server: 	 Loss: 0.27929 	 Acc: 92.180%
+2023-01-31 01:42:25,983 - ServerHandler - INFO - Round [116/1000] server global update done.
+2023-01-31 01:42:30,304 - ServerHandler - INFO - Round [116/1000] test performance on server: 	 Loss: 0.26586 	 Acc: 92.720%
+2023-01-31 01:48:32,165 - ServerHandler - INFO - Round [117/1000] server global update done.
+2023-01-31 01:48:36,984 - ServerHandler - INFO - Round [117/1000] test performance on server: 	 Loss: 0.25673 	 Acc: 93.000%
+2023-01-31 01:54:42,386 - ServerHandler - INFO - Round [118/1000] server global update done.
+2023-01-31 01:54:46,385 - ServerHandler - INFO - Round [118/1000] test performance on server: 	 Loss: 0.25699 	 Acc: 93.090%
+2023-01-31 02:00:54,292 - ServerHandler - INFO - Round [119/1000] server global update done.
+2023-01-31 02:00:59,106 - ServerHandler - INFO - Round [119/1000] test performance on server: 	 Loss: 0.25432 	 Acc: 93.010%
+2023-01-31 02:07:11,170 - ServerHandler - INFO - Round [120/1000] server global update done.
+2023-01-31 02:07:15,774 - ServerHandler - INFO - Round [120/1000] test performance on server: 	 Loss: 0.26141 	 Acc: 92.960%
+2023-01-31 02:13:30,082 - ServerHandler - INFO - Round [121/1000] server global update done.
+2023-01-31 02:13:34,730 - ServerHandler - INFO - Round [121/1000] test performance on server: 	 Loss: 0.28385 	 Acc: 92.250%
+2023-01-31 02:19:41,401 - ServerHandler - INFO - Round [122/1000] server global update done.
+2023-01-31 02:19:45,988 - ServerHandler - INFO - Round [122/1000] test performance on server: 	 Loss: 0.26850 	 Acc: 92.590%
+2023-01-31 02:25:50,412 - ServerHandler - INFO - Round [123/1000] server global update done.
+2023-01-31 02:25:54,212 - ServerHandler - INFO - Round [123/1000] test performance on server: 	 Loss: 0.25385 	 Acc: 92.890%
+2023-01-31 02:31:57,026 - ServerHandler - INFO - Round [124/1000] server global update done.
+2023-01-31 02:32:01,878 - ServerHandler - INFO - Round [124/1000] test performance on server: 	 Loss: 0.25653 	 Acc: 92.990%
+2023-01-31 02:38:06,675 - ServerHandler - INFO - Round [125/1000] server global update done.
+2023-01-31 02:38:11,963 - ServerHandler - INFO - Round [125/1000] test performance on server: 	 Loss: 0.26046 	 Acc: 92.950%
+2023-01-31 02:44:10,395 - ServerHandler - INFO - Round [126/1000] server global update done.
+2023-01-31 02:44:14,906 - ServerHandler - INFO - Round [126/1000] test performance on server: 	 Loss: 0.26555 	 Acc: 92.900%
+2023-01-31 02:50:19,900 - ServerHandler - INFO - Round [127/1000] server global update done.
+2023-01-31 02:50:24,150 - ServerHandler - INFO - Round [127/1000] test performance on server: 	 Loss: 0.25947 	 Acc: 92.930%
+2023-01-31 02:56:32,357 - ServerHandler - INFO - Round [128/1000] server global update done.
+2023-01-31 02:56:36,233 - ServerHandler - INFO - Round [128/1000] test performance on server: 	 Loss: 0.24987 	 Acc: 93.100%
+2023-01-31 03:02:41,951 - ServerHandler - INFO - Round [129/1000] server global update done.
+2023-01-31 03:02:46,069 - ServerHandler - INFO - Round [129/1000] test performance on server: 	 Loss: 0.25428 	 Acc: 92.910%
+2023-01-31 03:08:49,562 - ServerHandler - INFO - Round [130/1000] server global update done.
+2023-01-31 03:08:53,743 - ServerHandler - INFO - Round [130/1000] test performance on server: 	 Loss: 0.25352 	 Acc: 92.930%
+2023-01-31 03:15:00,649 - ServerHandler - INFO - Round [131/1000] server global update done.
+2023-01-31 03:15:04,261 - ServerHandler - INFO - Round [131/1000] test performance on server: 	 Loss: 0.25928 	 Acc: 92.770%
+2023-01-31 03:21:10,803 - ServerHandler - INFO - Round [132/1000] server global update done.
+2023-01-31 03:21:15,022 - ServerHandler - INFO - Round [132/1000] test performance on server: 	 Loss: 0.24524 	 Acc: 93.150%
+2023-01-31 03:27:14,184 - ServerHandler - INFO - Round [133/1000] server global update done.
+2023-01-31 03:27:18,267 - ServerHandler - INFO - Round [133/1000] test performance on server: 	 Loss: 0.25282 	 Acc: 93.000%
+2023-01-31 03:33:23,055 - ServerHandler - INFO - Round [134/1000] server global update done.
+2023-01-31 03:33:27,522 - ServerHandler - INFO - Round [134/1000] test performance on server: 	 Loss: 0.24683 	 Acc: 93.000%
+2023-01-31 03:39:33,196 - ServerHandler - INFO - Round [135/1000] server global update done.
+2023-01-31 03:39:37,977 - ServerHandler - INFO - Round [135/1000] test performance on server: 	 Loss: 0.25754 	 Acc: 93.030%
+2023-01-31 03:45:38,214 - ServerHandler - INFO - Round [136/1000] server global update done.
+2023-01-31 03:45:42,149 - ServerHandler - INFO - Round [136/1000] test performance on server: 	 Loss: 0.25241 	 Acc: 92.980%
+2023-01-31 03:51:46,604 - ServerHandler - INFO - Round [137/1000] server global update done.
+2023-01-31 03:51:51,128 - ServerHandler - INFO - Round [137/1000] test performance on server: 	 Loss: 0.24947 	 Acc: 93.080%
+2023-01-31 03:57:55,990 - ServerHandler - INFO - Round [138/1000] server global update done.
+2023-01-31 03:58:00,906 - ServerHandler - INFO - Round [138/1000] test performance on server: 	 Loss: 0.25147 	 Acc: 93.150%
+2023-01-31 04:04:03,906 - ServerHandler - INFO - Round [139/1000] server global update done.
+2023-01-31 04:04:08,586 - ServerHandler - INFO - Round [139/1000] test performance on server: 	 Loss: 0.24050 	 Acc: 93.210%
+2023-01-31 04:10:13,652 - ServerHandler - INFO - Round [140/1000] server global update done.
+2023-01-31 04:10:18,237 - ServerHandler - INFO - Round [140/1000] test performance on server: 	 Loss: 0.24471 	 Acc: 93.310%
+2023-01-31 04:16:26,772 - ServerHandler - INFO - Round [141/1000] server global update done.
+2023-01-31 04:16:31,549 - ServerHandler - INFO - Round [141/1000] test performance on server: 	 Loss: 0.26015 	 Acc: 92.870%
+2023-01-31 04:22:36,269 - ServerHandler - INFO - Round [142/1000] server global update done.
+2023-01-31 04:22:41,265 - ServerHandler - INFO - Round [142/1000] test performance on server: 	 Loss: 0.25268 	 Acc: 92.990%
+2023-01-31 04:28:47,371 - ServerHandler - INFO - Round [143/1000] server global update done.
+2023-01-31 04:28:51,747 - ServerHandler - INFO - Round [143/1000] test performance on server: 	 Loss: 0.24712 	 Acc: 93.020%
+2023-01-31 04:34:59,348 - ServerHandler - INFO - Round [144/1000] server global update done.
+2023-01-31 04:35:04,081 - ServerHandler - INFO - Round [144/1000] test performance on server: 	 Loss: 0.24549 	 Acc: 93.130%
+2023-01-31 04:41:11,026 - ServerHandler - INFO - Round [145/1000] server global update done.
+2023-01-31 04:41:15,044 - ServerHandler - INFO - Round [145/1000] test performance on server: 	 Loss: 0.24674 	 Acc: 93.220%
+2023-01-31 04:47:19,837 - ServerHandler - INFO - Round [146/1000] server global update done.
+2023-01-31 04:47:23,738 - ServerHandler - INFO - Round [146/1000] test performance on server: 	 Loss: 0.25909 	 Acc: 93.040%
+2023-01-31 04:53:27,159 - ServerHandler - INFO - Round [147/1000] server global update done.
+2023-01-31 04:53:31,121 - ServerHandler - INFO - Round [147/1000] test performance on server: 	 Loss: 0.24868 	 Acc: 93.020%
+2023-01-31 04:59:34,777 - ServerHandler - INFO - Round [148/1000] server global update done.
+2023-01-31 04:59:38,967 - ServerHandler - INFO - Round [148/1000] test performance on server: 	 Loss: 0.24222 	 Acc: 93.400%
+2023-01-31 05:05:41,379 - ServerHandler - INFO - Round [149/1000] server global update done.
+2023-01-31 05:05:46,165 - ServerHandler - INFO - Round [149/1000] test performance on server: 	 Loss: 0.24059 	 Acc: 93.540%
+2023-01-31 05:11:51,832 - ServerHandler - INFO - Round [150/1000] server global update done.
+2023-01-31 05:11:56,123 - ServerHandler - INFO - Round [150/1000] test performance on server: 	 Loss: 0.24057 	 Acc: 93.470%
+2023-01-31 05:17:52,604 - ServerHandler - INFO - Round [151/1000] server global update done.
+2023-01-31 05:17:56,505 - ServerHandler - INFO - Round [151/1000] test performance on server: 	 Loss: 0.24983 	 Acc: 92.990%
+2023-01-31 05:23:50,650 - ServerHandler - INFO - Round [152/1000] server global update done.
+2023-01-31 05:23:54,430 - ServerHandler - INFO - Round [152/1000] test performance on server: 	 Loss: 0.24029 	 Acc: 93.370%
+2023-01-31 05:29:47,000 - ServerHandler - INFO - Round [153/1000] server global update done.
+2023-01-31 05:29:50,930 - ServerHandler - INFO - Round [153/1000] test performance on server: 	 Loss: 0.24135 	 Acc: 93.170%
+2023-01-31 05:35:44,024 - ServerHandler - INFO - Round [154/1000] server global update done.
+2023-01-31 05:35:47,552 - ServerHandler - INFO - Round [154/1000] test performance on server: 	 Loss: 0.24372 	 Acc: 93.170%
+2023-01-31 05:41:51,419 - ServerHandler - INFO - Round [155/1000] server global update done.
+2023-01-31 05:41:55,706 - ServerHandler - INFO - Round [155/1000] test performance on server: 	 Loss: 0.24568 	 Acc: 93.320%
+2023-01-31 05:47:47,845 - ServerHandler - INFO - Round [156/1000] server global update done.
+2023-01-31 05:47:52,087 - ServerHandler - INFO - Round [156/1000] test performance on server: 	 Loss: 0.23214 	 Acc: 93.500%
+2023-01-31 05:53:46,810 - ServerHandler - INFO - Round [157/1000] server global update done.
+2023-01-31 05:53:51,131 - ServerHandler - INFO - Round [157/1000] test performance on server: 	 Loss: 0.23716 	 Acc: 93.380%
+2023-01-31 05:59:48,993 - ServerHandler - INFO - Round [158/1000] server global update done.
+2023-01-31 05:59:53,438 - ServerHandler - INFO - Round [158/1000] test performance on server: 	 Loss: 0.24023 	 Acc: 93.320%
+2023-01-31 06:05:53,251 - ServerHandler - INFO - Round [159/1000] server global update done.
+2023-01-31 06:05:57,119 - ServerHandler - INFO - Round [159/1000] test performance on server: 	 Loss: 0.23308 	 Acc: 93.520%
+2023-01-31 06:11:58,439 - ServerHandler - INFO - Round [160/1000] server global update done.
+2023-01-31 06:12:01,238 - ServerHandler - INFO - Round [160/1000] test performance on server: 	 Loss: 0.23555 	 Acc: 93.380%
+2023-01-31 06:17:55,263 - ServerHandler - INFO - Round [161/1000] server global update done.
+2023-01-31 06:17:58,944 - ServerHandler - INFO - Round [161/1000] test performance on server: 	 Loss: 0.23430 	 Acc: 93.440%
+2023-01-31 06:23:51,756 - ServerHandler - INFO - Round [162/1000] server global update done.
+2023-01-31 06:23:55,666 - ServerHandler - INFO - Round [162/1000] test performance on server: 	 Loss: 0.23761 	 Acc: 93.470%
+2023-01-31 06:29:54,179 - ServerHandler - INFO - Round [163/1000] server global update done.
+2023-01-31 06:29:58,651 - ServerHandler - INFO - Round [163/1000] test performance on server: 	 Loss: 0.24124 	 Acc: 93.100%
+2023-01-31 06:35:58,187 - ServerHandler - INFO - Round [164/1000] server global update done.
+2023-01-31 06:36:02,126 - ServerHandler - INFO - Round [164/1000] test performance on server: 	 Loss: 0.23326 	 Acc: 93.400%
+2023-01-31 06:41:56,147 - ServerHandler - INFO - Round [165/1000] server global update done.
+2023-01-31 06:41:59,837 - ServerHandler - INFO - Round [165/1000] test performance on server: 	 Loss: 0.23287 	 Acc: 93.260%
+2023-01-31 06:47:50,920 - ServerHandler - INFO - Round [166/1000] server global update done.
+2023-01-31 06:47:55,305 - ServerHandler - INFO - Round [166/1000] test performance on server: 	 Loss: 0.23338 	 Acc: 93.450%
+2023-01-31 06:53:47,389 - ServerHandler - INFO - Round [167/1000] server global update done.
+2023-01-31 06:53:51,158 - ServerHandler - INFO - Round [167/1000] test performance on server: 	 Loss: 0.24245 	 Acc: 93.170%
+2023-01-31 06:59:47,432 - ServerHandler - INFO - Round [168/1000] server global update done.
+2023-01-31 06:59:51,534 - ServerHandler - INFO - Round [168/1000] test performance on server: 	 Loss: 0.24937 	 Acc: 93.260%
+2023-01-31 07:05:48,036 - ServerHandler - INFO - Round [169/1000] server global update done.
+2023-01-31 07:05:51,302 - ServerHandler - INFO - Round [169/1000] test performance on server: 	 Loss: 0.24029 	 Acc: 93.340%
+2023-01-31 07:11:42,448 - ServerHandler - INFO - Round [170/1000] server global update done.
+2023-01-31 07:11:46,187 - ServerHandler - INFO - Round [170/1000] test performance on server: 	 Loss: 0.24765 	 Acc: 93.180%
+2023-01-31 07:17:39,308 - ServerHandler - INFO - Round [171/1000] server global update done.
+2023-01-31 07:17:43,088 - ServerHandler - INFO - Round [171/1000] test performance on server: 	 Loss: 0.23562 	 Acc: 93.400%
+2023-01-31 07:23:36,767 - ServerHandler - INFO - Round [172/1000] server global update done.
+2023-01-31 07:23:40,912 - ServerHandler - INFO - Round [172/1000] test performance on server: 	 Loss: 0.23972 	 Acc: 93.420%
+2023-01-31 07:29:41,051 - ServerHandler - INFO - Round [173/1000] server global update done.
+2023-01-31 07:29:44,722 - ServerHandler - INFO - Round [173/1000] test performance on server: 	 Loss: 0.23132 	 Acc: 93.630%
+2023-01-31 07:35:40,143 - ServerHandler - INFO - Round [174/1000] server global update done.
+2023-01-31 07:35:44,227 - ServerHandler - INFO - Round [174/1000] test performance on server: 	 Loss: 0.23918 	 Acc: 93.410%
+2023-01-31 07:41:39,981 - ServerHandler - INFO - Round [175/1000] server global update done.
+2023-01-31 07:41:43,769 - ServerHandler - INFO - Round [175/1000] test performance on server: 	 Loss: 0.23606 	 Acc: 93.500%
+2023-01-31 07:47:37,735 - ServerHandler - INFO - Round [176/1000] server global update done.
+2023-01-31 07:47:41,479 - ServerHandler - INFO - Round [176/1000] test performance on server: 	 Loss: 0.24158 	 Acc: 93.490%
+2023-01-31 07:53:34,465 - ServerHandler - INFO - Round [177/1000] server global update done.
+2023-01-31 07:53:38,682 - ServerHandler - INFO - Round [177/1000] test performance on server: 	 Loss: 0.24002 	 Acc: 93.130%
+2023-01-31 07:59:35,433 - ServerHandler - INFO - Round [178/1000] server global update done.
+2023-01-31 07:59:39,032 - ServerHandler - INFO - Round [178/1000] test performance on server: 	 Loss: 0.23407 	 Acc: 93.360%
+2023-01-31 08:05:36,357 - ServerHandler - INFO - Round [179/1000] server global update done.
+2023-01-31 08:05:40,099 - ServerHandler - INFO - Round [179/1000] test performance on server: 	 Loss: 0.23678 	 Acc: 93.330%
+2023-01-31 08:11:31,522 - ServerHandler - INFO - Round [180/1000] server global update done.
+2023-01-31 08:11:35,719 - ServerHandler - INFO - Round [180/1000] test performance on server: 	 Loss: 0.23018 	 Acc: 93.640%
+2023-01-31 08:17:29,520 - ServerHandler - INFO - Round [181/1000] server global update done.
+2023-01-31 08:17:33,739 - ServerHandler - INFO - Round [181/1000] test performance on server: 	 Loss: 0.23127 	 Acc: 93.480%
+2023-01-31 08:23:30,601 - ServerHandler - INFO - Round [182/1000] server global update done.
+2023-01-31 08:23:34,295 - ServerHandler - INFO - Round [182/1000] test performance on server: 	 Loss: 0.23112 	 Acc: 93.510%
+2023-01-31 08:29:32,579 - ServerHandler - INFO - Round [183/1000] server global update done.
+2023-01-31 08:29:36,632 - ServerHandler - INFO - Round [183/1000] test performance on server: 	 Loss: 0.22499 	 Acc: 93.750%
+2023-01-31 08:35:30,029 - ServerHandler - INFO - Round [184/1000] server global update done.
+2023-01-31 08:35:33,754 - ServerHandler - INFO - Round [184/1000] test performance on server: 	 Loss: 0.23282 	 Acc: 93.530%
+2023-01-31 08:41:25,869 - ServerHandler - INFO - Round [185/1000] server global update done.
+2023-01-31 08:41:29,573 - ServerHandler - INFO - Round [185/1000] test performance on server: 	 Loss: 0.23204 	 Acc: 93.520%
+2023-01-31 08:47:21,809 - ServerHandler - INFO - Round [186/1000] server global update done.
+2023-01-31 08:47:26,068 - ServerHandler - INFO - Round [186/1000] test performance on server: 	 Loss: 0.22630 	 Acc: 93.550%
+2023-01-31 08:53:25,646 - ServerHandler - INFO - Round [187/1000] server global update done.
+2023-01-31 08:53:29,238 - ServerHandler - INFO - Round [187/1000] test performance on server: 	 Loss: 0.22633 	 Acc: 93.600%
+2023-01-31 08:59:25,937 - ServerHandler - INFO - Round [188/1000] server global update done.
+2023-01-31 08:59:29,679 - ServerHandler - INFO - Round [188/1000] test performance on server: 	 Loss: 0.23005 	 Acc: 93.610%
+2023-01-31 09:05:19,697 - ServerHandler - INFO - Round [189/1000] server global update done.
+2023-01-31 09:05:23,647 - ServerHandler - INFO - Round [189/1000] test performance on server: 	 Loss: 0.23329 	 Acc: 93.610%
+2023-01-31 09:11:17,810 - ServerHandler - INFO - Round [190/1000] server global update done.
+2023-01-31 09:11:21,558 - ServerHandler - INFO - Round [190/1000] test performance on server: 	 Loss: 0.22930 	 Acc: 93.530%
+2023-01-31 09:17:14,090 - ServerHandler - INFO - Round [191/1000] server global update done.
+2023-01-31 09:17:17,589 - ServerHandler - INFO - Round [191/1000] test performance on server: 	 Loss: 0.22421 	 Acc: 93.590%
+2023-01-31 09:23:15,795 - ServerHandler - INFO - Round [192/1000] server global update done.
+2023-01-31 09:23:19,699 - ServerHandler - INFO - Round [192/1000] test performance on server: 	 Loss: 0.23238 	 Acc: 93.620%
+2023-01-31 09:29:11,643 - ServerHandler - INFO - Round [193/1000] server global update done.
+2023-01-31 09:29:15,364 - ServerHandler - INFO - Round [193/1000] test performance on server: 	 Loss: 0.23123 	 Acc: 93.640%
