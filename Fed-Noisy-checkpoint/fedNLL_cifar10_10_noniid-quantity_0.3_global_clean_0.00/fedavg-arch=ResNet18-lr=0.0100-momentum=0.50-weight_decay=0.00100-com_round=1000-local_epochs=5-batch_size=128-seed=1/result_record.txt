@@ -1,0 +1,3 @@
+{'num_clients': 10, 'com_round': 1000, 'model': 'ResNet18', 'sample_ratio': 1.0, 'batch_size': 128, 'epochs': 5, 'lr': 0.01, 'weight_decay': 0.001, 'momentum': 0.5, 'centralized': False, 'partition': 'noniid-quantity', 'dir_alpha': 0.3, 'major_classes_num': 2, 'min_require_size': 10, 'noise_mode': 'clean', 'globalize': True, 'noise_ratio': 0.0, 'min_noise_ratio': 0.0, 'max_noise_ratio': 1.0, 'dataset': 'cifar10', 'raw_data_dir': '/home/liangsiqi/raw_datasets/cifar10', 'data_dir': '../fedNLLdata_res/cifar10', 'out_dir': '../Fed-Noisy-checkpoint/', 'save_best': False, 'seed': 1, 'cuda': True}
+acc:[29.4, 73.69, 80.69, 83.09]
+loss:[2.0441373556475098, 0.7654632209222528, 0.5799797626235818, 0.5233535662859301]
