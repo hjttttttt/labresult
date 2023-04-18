@@ -1,0 +1,10 @@
+dataset : cifar100
+partition : noniid-quantity
+dir_alpha : 0.3
+num_clients : 20
+major_classes_num : 2
+min_require_size : 10
+globalize : True
+noise_mode : clean
+true_noise_ratio : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+noise_ratio : [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
