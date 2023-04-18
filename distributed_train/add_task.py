@@ -166,26 +166,26 @@ class TaskGenerator:
 priority = False  # 如果任务需要优先完成，可以将这个值设为True
 dataset = "cifar10"
 model = "VGG16"
-criterion = "ce"
+criterion = "sce"
 sce_alpha = 0.01  # criterion为sce时要使用
 sce_beta = 1.0    # criterion为sce时要使用
-partition_all =  [ "iid", "noniid-#label", "noniid-quantity"]   # ["iid", "noniid-#label", "noniid-labeldir", "noniid-quantity"]
+partition_all =  ["iid", "noniid-#label", "noniid-labeldir", "noniid-quantity"]   # ["iid", "noniid-#label", "noniid-labeldir", "noniid-quantity"]
 globalize_all = [True, False]
 noise_mode_all = ["clean", "sym", "asym"]
 noise_ratio_sym_all =   [0.4]  # [0.2,0.4,0.6,0.8]
 noise_ratio_asym_all =  [[0.3,0.5]] # [[0.1,0.3],[0.3,0.5],[0.5,0.7]]
-seed_all = [1,2,3]  # [1,2,3]
-dir_alpha = 0.1    # TODO：这里是0.1
+seed_all = [1]  # [1,2,3]
+dir_alpha = 0.1    # TODO：这里是0.1  
 raw_data_dir = f"../raw_datasets/{dataset}"
 data_dir = f"../fedNLLdata/{dataset}"
 out_dir = "../Fed-Noisy-checkpoint/"
 com_round = 500
 epochs = 5
-lr = 0.01
+lr = 0.005
 momentum = 0.9
 major_classes_num = 3  # 这里是3
-num_clients = 100
-sample_ratio = 0.1  # 要改为1.0
+num_clients = 10
+sample_ratio = 1  # 要改为1.0
 weight_decay = 5e-4
 
 

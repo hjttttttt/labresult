@@ -28,28 +28,32 @@ def FedNLL_name(
     setting = f"{partition_setting}_{noise_param}"
     return f"{prefix}_{dataset}_{setting}"
 
-def make_exp_name(alg_name='dividemix', args=None):
-    if alg_name == 'crossentropy':
+def make_exp_name(alg_name="dividemix", args=None):
+    if alg_name == "crossentropy":
         noise_name = f"noise_mode={args.noise_mode}-noise_ratio={args.noise_ratio:.2f}"
         opt_name = f"lr={args.lr:.4f}-momentum={args.momentum:.2f}-weight_decay={args.weight_decay:.5f}"
         other_name = f"num_epochs={args.num_epochs}-batch_size={args.batch_size}-seed={args.seed}"
-        exp_name = '-'.join([noise_name, opt_name, other_name])
+        exp_name = "-".join([noise_name, opt_name, other_name])
 
-    elif alg_name == 'dividemix':
+    elif alg_name == "dividemix":
         noise_name = f"noise_mode={args.noise_mode}-noise_ratio={args.noise_ratio:.2f}"
         alg_name = f"p_threshold={args.p_threshold:.2f}-lambda_u={args.lambda_u}-T={args.T:.2f}-alpha={args.alpha:.2f}"
         opt_name = f"lr={args.lr:.4f}-momentum={args.momentum:.2f}-weight_decay={args.weight_decay:.5f}"
         other_name = f"num_epochs={args.num_epochs}-batch_size={args.batch_size}-seed={args.seed}"
-        exp_name = '-'.join([noise_name, alg_name, opt_name, other_name])
+        exp_name = "-".join([noise_name, alg_name, opt_name, other_name])
 
-    elif alg_name == 'coteaching':
+    elif alg_name == "coteaching":
         pass
-    elif alg_name == 'fedavg':
+    elif alg_name == "fedavg":
         arch_name = f"arch={args.model}"
         opt_name = f"lr={args.lr:.4f}-momentum={args.momentum:.2f}-weight_decay={args.weight_decay:.5f}"
         criterion_name = make_criterion_name(args)
-        other_name = f"com_round={args.com_round}-local_epochs={args.epochs}-batch_size={args.batch_size}-seed={args.seed}"
-        exp_name = '-'.join([alg_name, criterion_name, arch_name, opt_name, other_name])
+        if args.mixup is True:
+            criterion_name += f"-mixup=True-mixup_alpha={args.mixup_alpha:.2f}"
+        other_name = f"com_round={args.com_round}-local_epochs={args.epochs}-sample_ratio={args.sample_ratio:.2f}-batch_size={args.batch_size}-seed={args.seed}"
+        exp_name = "-".join([alg_name, criterion_name, arch_name, opt_name, other_name])
+
+    return exp_name
 
     return exp_name
 
@@ -101,6 +105,7 @@ def result_parser(result_path):
     return accs, losses, setting_dict
 
 def task_has_completed(record_file):
+    print(record_file)
     if os.path.exists(record_file):
         directory = record_file.split("/")
         for file in directory:  
@@ -113,12 +118,12 @@ def task_has_completed(record_file):
 
 
 def read_fednll_args():
-    parser = argparse.ArgumentParser(description='Federated Noisy Labels Preparation')
+    parser = argparse.ArgumentParser(description="Federated Noisy Labels Preparation")
 
     # ==== Pipeline args ====
 
     parser.add_argument(
-        '--num_clients',
+        "--num_clients",
         default=10,
         type=int,
         help="Number for clients in federated setting.",
@@ -127,7 +132,7 @@ def read_fednll_args():
     parser.add_argument(
         "--model",
         type=str,
-        default='ResNet18',
+        default="ResNet18",
         help="Currently only support 'Cifar10Net', 'SimpleCNN',  'LeNet', 'VGG11', 'VGG13', 'VGG16', 'VGG19', 'ToyModel', 'ResNet18', 'WRN28_10', 'WRN40_2' and 'ResNet34'.",
     )
     parser.add_argument("--sample_ratio", type=float, default=0.3)
@@ -140,34 +145,34 @@ def read_fednll_args():
 
     # ==== FedNLL data args ====
     parser.add_argument(
-        '--centralized',
+        "--centralized",
         default=False,
         help="Centralized setting or federated setting. True for centralized "
         "setting, while False for federated setting.",
     )
     # ----Federated Partition----
     parser.add_argument(
-        '--partition',
-        default='iid',
+        "--partition",
+        default="iid",
         type=str,
-        choices=['iid', 'noniid-#label', 'noniid-labeldir', 'noniid-quantity'],
+        choices=["iid", "noniid-#label", "noniid-labeldir", "noniid-quantity"],
         help="Data partition scheme for federated setting.",
     )
 
     parser.add_argument(
-        '--dir_alpha',
+        "--dir_alpha",
         default=0.1,
         type=float,
         help="Parameter for Dirichlet distribution.",
     )
     parser.add_argument(
-        '--major_classes_num',
+        "--major_classes_num",
         default=2,
         type=int,
         help="Major class number for 'noniid-#label' partition.",
     )
     parser.add_argument(
-        '--min_require_size',
+        "--min_require_size",
         default=10,
         type=int,
         help="Minimum sample size for each client.",
@@ -175,34 +180,34 @@ def read_fednll_args():
 
     # ----Noise setting options----
     parser.add_argument(
-        '--noise_mode',
+        "--noise_mode",
         default=None,
         type=str,
-        choices=['clean', 'sym', 'asym'],
+        choices=["clean", "sym", "asym"],
         help="Noise type for centralized setting: 'sym' for symmetric noise; "
         "'asym' for asymmetric noise; 'real' for real-world noise. Only works "
         "if --centralized=True.",
     )
     parser.add_argument(
-        '--globalize',
-        action='store_true',
+        "--globalize",
+        action="store_true",
         help="Federated noisy label setting, globalized noise or localized noise.",
     )
 
     parser.add_argument(
-        '--noise_ratio',
+        "--noise_ratio",
         default=0.0,
         type=float,
         help="Noise ratio for symmetric noise or asymmetric noise.",
     )
     parser.add_argument(
-        '--min_noise_ratio',
+        "--min_noise_ratio",
         default=0.0,
         type=float,
         help="Minimum noise ratio for symmetric noise or asymmetric noise. Only works when 'globalize' is Flase",
     )
     parser.add_argument(
-        '--max_noise_ratio',
+        "--max_noise_ratio",
         default=1.0,
         type=float,
         help="Maximum noise ratio for symmetric noise or asymmetric noise. Only works when 'globalize' is Flase",
@@ -210,7 +215,7 @@ def read_fednll_args():
 
     # ----Robust Loss Function options----
     parser.add_argument(
-        "--criterion", type=str, default='ce'
+        "--criterion", type=str, default="ce"
     )  # for robust loss function
     parser.add_argument(
         "--sce_alpha",
@@ -249,12 +254,41 @@ def read_fednll_args():
         help="gamma parameter for Focal loss and Normalzied Focal loss.",
     )
 
+    # ----Mixup options----
+    parser.add_argument("--mixup", action="store_true", help="Whether to use mixup.")
+    parser.add_argument(
+        "--mixup_alpha", type=float, default=1.0, help="Hyperparameter alpha for mixup."
+    )
+
+    # ----Co-teaching options----
+    parser.add_argument(
+        "--coteaching", action="store_true", help="Whether to use co-teahcing."
+    )
+    parser.add_argument(
+        "--coteaching_forget_rate",
+        type=float,
+        default=None,
+        help="Forget rate for co-teaching.",
+    )
+    parser.add_argument(
+        "--coteaching_exponent",
+        type=float,
+        default=1,
+        help="exponent of the forget rate, can be 0.5, 1, 2. This parameter is equal to c in Tc for R(T) in Co-teaching paper.",
+    )
+    parser.add_argument(
+        "--coteaching_num_gradual",
+        type=int,
+        default=10,
+        help="how many epochs for linear drop rate, can be 5, 10, 15. This parameter is equal to Tk for R(T) in Co-teaching paper.",
+    )
+
     # ----Path options----
     parser.add_argument(
-        '--dataset',
-        default='cifar10',
+        "--dataset",
+        default="cifar10",
         type=str,
-        choices=['mnist', 'cifar10', 'cifar100', 'svhn', 'clothing1m', 'webvision'],
+        choices=["mnist", "cifar10", "cifar100", "svhn", "clothing1m", "webvision"],
         help="Dataset for experiment. Current support: ['mnist', 'cifar10', "
         "'cifar100', 'svhn', 'clothing1m', 'webvision']",
     )
@@ -265,27 +299,26 @@ def read_fednll_args():
     #     help="Directory for raw dataset download",
     # )
     parser.add_argument(
-        '--data_dir',
-        default='../noisy_label_data',
+        "--data_dir",
+        default="../noisy_label_data",
         type=str,
         help="Directory to save the dataset with noisy labels.",
     )
     parser.add_argument(
-        '--out_dir',
+        "--out_dir",
         type=str,
-        default='../checkponit/',
+        default="../checkponit/",
         help="Checkpoint path for log files and report files.",
     )
 
     # ----Miscs options----
     parser.add_argument(
-        "--save_best", action='store_true', help="Whether to save the best model."
+        "--save_best", action="store_true", help="Whether to save the best model."
     )
-    parser.add_argument('--seed', default=0, type=int, help='Random seed')
+    parser.add_argument("--seed", default=0, type=int, help="Random seed")
 
     args = parser.parse_args()
     return args
-
 
 def get_command(args):
     command = []

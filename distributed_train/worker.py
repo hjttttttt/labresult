@@ -6,6 +6,7 @@ import subprocess
 import os
 import paramiko
 import configparser
+import random
 
 from utils import remove_file, remove_empty_folder
 
@@ -133,9 +134,14 @@ def worker(gpu_uuid, gpu_id):
         if 'command' in reply:
             command = reply['command']
 
+            sleep_time = random.randint(1, 10)
+            time.sleep(sleep_time)
+
+
             result = subprocess.run(command[0].split())   # 数据划分指令
 
             env = dict(os.environ, CUDA_VISIBLE_DEVICES=str(gpu_id))
+
 
             proc = subprocess.Popen(command[1].split(), env=env, stderr=subprocess.PIPE)   # 训练指令
 
@@ -144,7 +150,6 @@ def worker(gpu_uuid, gpu_id):
             LogTask(args_info)
 
             time.sleep(30)  # 睡20s后再开始检测
-
             # 开启一个心跳线程
             stop_flag = threading.Event()
             heartbeat_thread = threading.Thread(target=send_heartbeat, args=(reply, stop_flag, proc, reply['task_id']))
