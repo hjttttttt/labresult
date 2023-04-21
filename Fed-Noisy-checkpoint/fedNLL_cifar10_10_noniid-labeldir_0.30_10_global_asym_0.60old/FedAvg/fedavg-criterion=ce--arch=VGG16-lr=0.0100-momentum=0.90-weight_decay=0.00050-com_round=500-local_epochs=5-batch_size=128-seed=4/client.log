@@ -1,0 +1,10 @@
+2023-03-30 13:32:58,617 - ClientTrainer - INFO - Round 0 selected clients: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+2023-03-30 13:32:58,850 - ClientTrainer - INFO - Round 0 client-0 local train epoch [0/5]
+2023-03-30 13:33:01,120 - ClientTrainer - INFO - Round 0 client-0 local train epoch [1/5]
+2023-03-30 13:33:03,080 - ClientTrainer - INFO - Round 0 client-0 local train epoch [2/5]
+2023-03-30 13:33:05,079 - ClientTrainer - INFO - Round 0 client-0 local train epoch [3/5]
+2023-03-30 13:33:07,105 - ClientTrainer - INFO - Round 0 client-0 local train epoch [4/5]
+2023-03-30 13:33:10,778 - ClientTrainer - INFO - Round 0 client-0 local test accuracy: 10.00%
+2023-03-30 13:33:11,043 - ClientTrainer - INFO - Round 0 client-1 local train epoch [0/5]
+2023-03-30 13:33:13,808 - ClientTrainer - INFO - Round 0 client-1 local train epoch [1/5]
+2023-03-30 13:33:16,608 - ClientTrainer - INFO - Round 0 client-1 local train epoch [2/5]

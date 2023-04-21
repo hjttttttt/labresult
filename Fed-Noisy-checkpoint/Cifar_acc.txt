@@ -1,0 +1,5 @@
+fedNLL_cifar10_10_iid__global_asym_0.40，最高准确率：81.64%，最后一轮准确率：78.67%
+fedNLL_cifar10_10_iid__global_clean_0.00，最高准确率：95.36%，最后一轮准确率：95.24%
+fedNLL_cifar10_10_noniid-labeldir_0.30_10_global_sym_0.40，最高准确率：61.01%，最后一轮准确率：48.12%
+fedNLL_cifar10_10_iid__global_sym_0.40，最高准确率：71.00%，最后一轮准确率：69.15%
+fedNLL_cifar10_10_noniid-labeldir_0.30_10_global_clean_0.00，最高准确率：94.09%，最后一轮准确率：93.86%
