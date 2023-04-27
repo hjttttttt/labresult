@@ -1,3 +1,0 @@
-{'num_clients': 10, 'com_round': 1000, 'model': 'ResNet18', 'sample_ratio': 1.0, 'batch_size': 128, 'epochs': 5, 'lr': 0.01, 'weight_decay': 0.0005, 'momentum': 0.5, 'centralized': False, 'partition': 'noniid-labeldir', 'dir_alpha': 0.3, 'major_classes_num': 2, 'min_require_size': 10, 'noise_mode': 'clean', 'globalize': True, 'noise_ratio': 0.0, 'min_noise_ratio': 0.0, 'max_noise_ratio': 1.0, 'dataset': 'svhn', 'raw_data_dir': '../raw_datasets/svhn', 'data_dir': '../fedNLLdata/svhn', 'out_dir': '../Fed-Noisy-checkpoint/', 'save_best': False, 'seed': 1, 'cuda': True}
-acc:[23.12538414259373, 40.5500921942225, 62.887984019668096, 73.42885679164107]
-loss:[2.312077435792661, 1.749335808496849, 1.045287385582924, 0.7913486621543473]

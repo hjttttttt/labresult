@@ -1,3 +1,0 @@
-{'num_clients': 10, 'com_round': 3, 'model': 'VGG13', 'sample_ratio': 0.3, 'batch_size': 128, 'epochs': 5, 'lr': 0.01, 'weight_decay': 0.0005, 'momentum': 0.9, 'centralized': False, 'partition': 'iid', 'dir_alpha': 0.1, 'major_classes_num': 2, 'min_require_size': 10, 'noise_mode': 'sym', 'globalize': False, 'noise_ratio': 0.0, 'min_noise_ratio': 0.3, 'max_noise_ratio': 0.5, 'criterion': 'ce', 'sce_alpha': 0.1, 'sce_beta': 1.0, 'loss_scale': 1.0, 'gce_q': 0.7, 'focal_alpha': None, 'focal_gamma': 0.0, 'dataset': 'cifar10', 'data_dir': '../fedNLLdata/cifar10', 'out_dir': '../Fed-Noisy-checkpoint/', 'save_best': False, 'seed': 3, 'cuda': True}
-acc:[17.02, 23.14, 24.490000000000002]
-loss:[2.2635927954806556, 2.164123363132718, 2.0847751219061355]
